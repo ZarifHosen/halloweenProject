@@ -830,9 +830,9 @@ img {
   .home__title-img-2 {
     width: 60px;
   }
-  .home__tittle {
+  /* .home__title {
     bottom: 5.75rem;
-  }
+  } */
   .home__description {
     padding: 0 7.5rem;
   }
@@ -840,6 +840,7 @@ img {
   .home__tree-2 {
     width: 300px;
     top: 14rem;
+    position: absolute;
   }
   .home__img {
     width: 500px;
@@ -880,7 +881,7 @@ img {
   .about__container .section__title,
   .party__container,
   .section__title {
-    text-align: initial;
+    text-align: center;
     margin-bottom: 1.5rem;
   }
   .about__description,
